@@ -21,7 +21,6 @@ oid = OpenID(app, os.path.join(basedir, 'tmp'))
 mail = Mail(app)
 babel = Babel(app)
 
-
 class CustomJSONEncoder(JSONEncoder):
     """This class adds support for lazy translation texts to Flask's
     JSON encoder. This is necessary when flashing translated texts."""
